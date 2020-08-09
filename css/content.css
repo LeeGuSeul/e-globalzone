@@ -1,0 +1,108 @@
+@charset "utf-8"; 
+
+a, a:link {text-decoration:none; color:#000;}
+a:hover, a:active, a:focus {text-decoration:none;}
+input[type="text"]{-webkit-border-radius:5px; -webkit-appearance:none;}
+input[type="button"]{-webkit-border-radius:5px; -webkit-appearance:none;}
+input[type="image"]{-webkit-border-radius:5px; -webkit-appearance:none;}
+input[type="submit"]{-webkit-border-radius:5px; -webkit-appearance:none;}
+input[type="password"]{-webkit-border-radius:5px; -webkit-appearance:none;}
+body {font-family:'Noto Sans KR', sans-serif;}
+
+/* head */
+.head {clear:both; width:100%; height:80px; background:#373a44;}
+.head .head_area {overflow:hidden; width:1200px; margin:0 auto;}
+.head .head_area .logo {float:left; margin-top:22px;}
+.head .head_area .menu {float:right; margin-top:28px;}
+.head .head_area .menu li {float:left; margin-left:100px;}
+.head .head_area .menu li a {font-size:16px; color:#fff; font-weight: 600; letter-spacing: -1px;}
+
+/* content */
+.wrapper {width:100%; text-align:center; background:url(/global/img/sub_title_bg.gif) no-repeat 50% 0px;}
+.wrapper .content {display:inline-block; width:1200px; min-height:700px; margin:0 auto;}
+.wrapper .content .sub_title {width:100%; height:90px; display:inline-block;}
+.wrapper .content .sub_title p.tit {float:left; line-height:90px; font-size:23px; color:#373a44; font-weight:600; letter-spacing: -1px;}
+.wrapper .content .sub_title .select_date {float:left; margin:15px 0 0 15px; cursor:pointer;}
+.wrap {width:100%; margin:30px 0 45px 0;}
+.scroll_area {width:1190px;height:600px;overflow-x: hidden;overflow-y: auto;padding-right:10px;}
+.scroll_area::-webkit-scrollbar {width:5px;}
+.scroll_area::-webkit-scrollbar-thumb {background-color: #373a44; border-radius: 10px;}
+.scroll_area::-webkit-scrollbar-track {background-color:#e1e1ea; border-radius: 10px;}
+
+ul.sch_time {margin: 0 0 20px 220px;overflow: hidden;}
+ul.sch_time li {float:left;font-family:'Lato', sans-serif;font-weight:600;font-size:12px;margin-left: 75px;}
+ul.sch_time li:first-child {margin-left:0;}
+table.sch_table { width:100%; border-collapse:collapse; color:#373a44; font-size:12px; font-weight:500;}
+table.sch_table th,
+table.sch_table td{text-align:center; border:1px solid #d5d5db;}
+table.sch_table tbody th {background:#373a44; color:#fff;}
+table.sch_table tbody td {font-size:11px; height:72px; letter-spacing:-0.05em;}
+table.sch_table tbody td:first-child {font-size:12px;}
+table.sch_table tbody td .status {width:100%; min-height: 42px; line-height: 42px;}
+table.sch_table tbody td .status p {position:relative;z-index:1;margin-left:-1px;padding:7px 0;line-height: 13px;font-size: 10px;color:#fff;letter-spacing: 0;font-weight: 500;}
+table.sch_table tbody td .status p.blue {background:#2050e6; border:1px solid #2050e6;}
+table.sch_table tbody td .status p.mint {background:#34bcad; border:1px solid #34bcad;}
+table.sch_table tbody td .status p.yellow {background:#ffa400; border:1px solid #ffa400;}
+table.sch_table tbody td .status p.puple {background:#6e4bdd; border:1px solid #6e4bdd;}
+table.sch_table tbody td .status p.gray  {background:#e1e1ea; border:1px solid #e1e1ea; color:#373a44;}
+table.sch_table tbody td .status p.oneline {min-height:42px; line-height:42px; padding:0;}
+table.sch_table tbody tr:hover {background:#f7f7f7;}
+table.sch_table tbody tr:hover td:first-child {color:#2050e6; text-decoration: underline;}
+.table_btn {width:100%; text-align:right; margin-top:25px;}
+.table_btn a {display:inline-block; text-align: center; border:1px solid #cbcbd2; border-radius:3px; font-size:13px; color:#373a44; min-width:115px; height:35px; line-height:35px; font-weight:600;}
+
+
+/* 유학생 관리 */
+.top_semester .edd-root{float:left; background:#fff; border:1px solid #cbcbd2; border-radius:5px; height:33px; line-height:33px; margin:30px 0 0 25px; padding:0 15px; width:180px;}
+.top_search {float:right; margin-top:30px;}
+.top_search .edd-root {float:left; background:#fff; border:1px solid #cbcbd2; border-radius:5px; height:33px; line-height:33px; padding:0 10px 0 15px; width:90px;}
+.top_search input[type="text"] {float:left; background:#fff; border:1px solid #cbcbd2; border-radius:5px; height:33px; line-height:33px; margin-left:5px;}
+.top_search input[type="submit"] {float:left; background:#373a44; border:1px solid #373a44; color:#fff; border-radius:5px; height:33px; line-height:33px; margin-left:5px; padding:0 10px;}
+table.student_manage_table {width:100%; border-collapse:collapse; color:#373a44; font-size:12px; font-weight:500; }
+table.student_manage_table th,
+table.student_manage_table td {text-align:center; border:1px solid #bcbfc7; padding:10px 5px;}
+table.student_manage_table td .favor,
+table.student_manage_table td .restriction {cursor:pointer;}
+table.student_manage_table thead .bg {background:#ebebec; height:75px;}
+table.student_manage_table thead th {border-top:1px solid #373a44;}
+table.student_manage_table thead th.align {cursor:pointer;}
+table.student_manage_table thead th.align:hover {background:#f7f7f7; border-bottom:1px solid #222;}
+table.student_manage_table thead th.align img {display:inline-block; margin:-3px 0 0 6px;}
+table.student_manage_table tr.eng {background:#eaf8f7;}
+table.student_manage_table tr.jp {background:#eaf0f8;}
+table.student_manage_table tr.ch {background:#fff6e5;}
+table.student_manage_table tr.restriction_on td {border:1px solid #f6b886; background:#fef9f6;}
+table.student_manage_table td:first-child {background:#fff;}
+
+/* CHECK BOX */
+.check_box_area {float:right; margin-top:25px;}
+.check_box {position:relative; float:left;}
+.check_box .check_box_input {margin-right:5px; padding-left:10px; float:left; width:140px; height:35px; line-height:35px; background:#fff;border:1px solid #cbcbd2; border-radius:5px; letter-spacing: -1px; text-align:left;}
+.check_box .check_box_input.all {width:30px;}
+.check_box .check_box_input input[type="checkbox"] {display: none;}
+.check_box .check_box_input input[type="checkbox"] + label {display: inline-block; width:20px; height:20px; background: #e3e4ea; cursor: pointer; border-radius: 3px; margin-top:7px;}
+.check_box .check_box_input:after {display:block; clear:both; content:"";}
+.check_box .check_box_input input[type="checkbox"]:checked + label {background:url(/global/img/checkBox_ico.png) #373a44 no-repeat center/12px 10px; float: left;}
+.check_box .check_box_input input[type="checkbox"] + label > span {position: absolute; top:2px; left:42px; display: block; font-size:13px; font-weight:600; color:#6a6a6a; font-family:'Noto Sans KR', sans-serif;}
+.check_box .check_box_input span {font-family:'Lato', sans-serif; font-weight:900;}
+
+.table_check {position:relative;}
+.table_check  input[type="checkbox"] {display: none;}
+.table_check  input[type="checkbox"] + label {display: inline-block; width:20px; height:20px; margin:0 auto; background: #e3e4ea; cursor: pointer; border-radius: 3px;}
+.table_check :after {display:block; clear:both; content:"";}
+.table_check  input[type="checkbox"]:checked + label {background:url(/global/img/checkBox_ico.png) #373a44 no-repeat center/12px 10px;}
+.table_check  input[type="checkbox"] + label > span {position: absolute; top:50%; left:50; display: block; font-size:13px; font-weight:600; color:#6a6a6a;}
+.table_check  span {font-family:'Lato', sans-serif; font-weight:900;}
+
+.check_box .check_box_input span.blue {color:#2050e6;}
+.check_box .check_box_input span.mint {color:#34bcad;}
+.check_box .check_box_input span.yellow {color:#ff8a00;}
+.check_box .check_box_input span.puple {color:#6e4bdd;}
+
+/* footer */
+.footer {width:100%; border-top:1px solid #e6e6e6;text-align: center;}
+.footer .footer_area {width:1200px;margin: 30px auto; display: inline-block;}
+.footer p.copyright {float:left; font-size:12px; text-align:left; color:#afafaf; line-height:150%;}
+.footer p.copyright span {display:block; font-family:'Lato', sans-serif; font-weight:600;}
+.footer .family_site {float:right;}
+.footer .family_site p {font-family:'Lato', sans-serif; color:#071985; font-size:13px; font-weight:600;}
