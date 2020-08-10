@@ -1,7 +1,7 @@
 <div class="link_baro">
     <a href="admin_schedule.php">· 스케줄 관리</a>
-    <a href="admin_student_manage.php">· 유학생 관리</a>
-    <a href="admin_student_manage2.php">· 한국인 학생 관리</a>
+    <a href="admin_abroad_student.php">· 유학생 관리</a>
+    <a href="admin_student.php">· 한국인 학생 관리</a>
     <a href="">· 이용제한 해제</a>
     <a href="">· 이용제한 등록</a>
     <a href="">· 유학생 연락처 정보</a>

@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT']."/global/file/head.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT']."/global/file/menu.php"; ?>
         <!-- 스케줄 및 예약 관리 - 관리자 -->
         <div class="content">
             <div class="sub_title">
@@ -311,4 +311,4 @@
                 </div>
             </div>
         </div>
-<?php include $_SERVER['DOCUMENT_ROOT']."/global/file/footer.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT']."/global/file/copy.php"; ?>

@@ -1,5 +1,5 @@
-<?php include $_SERVER['DOCUMENT_ROOT']."/global/file/head.php"; ?>
-        <!-- 스케줄 및 예약 관리 - 관리자 -->
+<?php include $_SERVER['DOCUMENT_ROOT']."/global/file/menu.php"; ?>
+        <!-- 한국인 학생 관리- 관리자 -->
         <div class="content">
             <div class="sub_title">
                 <div class="top_semester">
@@ -49,7 +49,7 @@
                                 <td>1회</td>
                                 <td>-</td>
                             </tr>
-                            <tr class="restriction_on">
+                            <tr>
                                 <td>컴정</td>
                                 <td>1901192</td>
                                 <td>이일영</td>
@@ -69,11 +69,21 @@
                                 <td>1회</td>
                                 <td>-</td>
                             </tr>
-                            <tr>
+                            <tr class="restriction_on">
                                 <td>컴정</td>
                                 <td>1901192</td>
                                 <td>이일영</td>
                                 <td><div class="restriction"><img src="/global/img/restriction_on.png" alt="이용제한 진행중" /></div></td>
+                                <td>010-0000-0000</td>
+                                <td>zxc1234@g.yju.ac.kr</td>
+                                <td>1회</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>컴정</td>
+                                <td>1901192</td>
+                                <td>이일영</td>
+                                <td><div class="restriction"><img src="/global/img/restriction_off.png" alt="이용제한 해제" /></div></td>
                                 <td>010-0000-0000</td>
                                 <td>zxc1234@g.yju.ac.kr</td>
                                 <td>1회</td>
@@ -89,4 +99,4 @@
                 </div>
             </div>
         </div>
-<?php include $_SERVER['DOCUMENT_ROOT']."/global/file/footer.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT']."/global/file/copy.php"; ?>
