@@ -11,7 +11,6 @@
 	<link rel="stylesheet" href="/global/css/content.css" />
 	<link rel="stylesheet" href="/global/css/flax.css" />
 	<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src = "/global/js/popup.js"></script>
 	<script src = "/global/js/easydropdown.js"></script>
 	<!-- font -->
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap" rel="stylesheet" />

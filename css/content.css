@@ -81,11 +81,16 @@ table.student_manage_table td:first-child {background:#fff;}
 /********************* POPUP *********************/
 .popup {padding:40px; border-radius:10px; background:#fff; border:1px solid #ddd;}
 .popup p.tit {font-size:25px; font-weight:600; margin-bottom:15px;}
-.popup .btn_area {width:100%; margin-top:30px; text-align: center;}
+.popup .btn_area {width:100%; margin-top:30px; text-align: center; display:inline-block;}
 .popup .btn_area.right {text-align: right;}
-.popup .btn_area a {display:inline-block; padding:0 20px; height:40px; line-height:40px; background:#373a44; border-radius:5px; font-size:13px; color:#fff; }
-.popup .btn_area a.mint {background:#34bcad;}
-.popup .btn_area a.blue {background:#2050e6;}
+.popup .btn_area a,
+.popup .btn_area div {cursor:pointer; display:inline-block; padding:0 15px; height:40px; line-height:40px; background:#373a44; border-radius:5px; font-size:13px; color:#fff; font-weight:600;}
+.popup .btn_area .mint {background:#34bcad;}
+.popup .btn_area .blue {background:#2050e6;}
+.popup .btn_area .gray {background:#989ead; color:#fff;}
+.popup .btn_area .white {background:#fff; color:#373a44; border:1px solid #d7d9e1;}
+.popup .btn_area .left {float:left;}
+.popup .btn_area .right {float:right;}
 /* SCROLL */
 .popup .scroll_area {width:98%;height:250px;overflow-x: hidden;overflow-y: auto;padding-right:10px;}
 .popup .scroll_area::-webkit-scrollbar {width:5px;}
@@ -112,6 +117,10 @@ table.pop_table thead th {background:#f2f2f4; font-weight:600; border-top:1px so
 table.pop_table2 {width:100%; border-collapse:collapse; text-align:center; font-size:13px; border-top:1px solid #2050e6; }
 table.pop_table2 th,
 table.pop_table2 td { border-bottom:1px solid #d5d5db; padding:12px 0;}
+/* 변경 필요 */
+table.pop_table3 {width:100%; border-collapse:collapse; text-align:center; font-size:13px; border-top:1px solid #373a44; }
+table.pop_table3 th,
+table.pop_table3 td { border-bottom:1px solid #d5d5db; padding:12px 0;}
 /* 스케줄 입력 */
 .popup.sch {width:700px;}
 .popup.sch .select_area {width:100%; display:inline-block; margin:25px 0;}
@@ -126,6 +135,68 @@ table.pop_table2 td { border-bottom:1px solid #d5d5db; padding:12px 0;}
 .popup.sch .select_area .area span {display:inline-block; height: 53px; line-height: 53px; margin-top: -45px; vertical-align: middle;}
 .popup.sch .select_area .area.student .edd-root {width:175px;}
 .regist_btn {display: inline-block;background: #222;width: 53px;height: 50px;vertical-align: bottom;margin-top: 25px;color: #fff;text-align: center;line-height: 50px;border-radius: 5px; cursor:pointer; font-size:14px;}
+/* 신청 학생 명단보기 */
+.popup.enrol {width:500px; text-align:left; color:#373a44; font-weight:600;}
+.popup.enrol .top {display:inline-block; width:100%;}
+.popup.enrol .top .left {float:left;}
+.popup.enrol .top .left p.tit {font-size:24px; margin-bottom:0px;}
+.popup.enrol .top .left p.txt {font-size:14px;}
+.popup.enrol .top .left p.txt span {font-family:'Lato', sans-serif;}
+.popup.enrol .top p.name {float:right; padding:8px 20px; background:#373a44; color:#fff; border-radius:5px;}
+.popup.enrol .area {width:100%; margin-top:35px; border:1px solid #e8e8ee; background:#f7f7f9;}
+.popup.enrol .area ul {display:inline-block;padding-top:12px;}
+.popup.enrol .area ul li {float:left;margin:0 0 12px 12px;width: 232px;}
+.popup.enrol .area ul li .student {height:70px; padding:0 15px 0 25px;background:#fff;border:1px solid #d7d9e1;border-radius:5px;}
+.popup.enrol .area ul li .del_btn,
+.popup.enrol .area ul li .name {float:left;}
+.popup.enrol .area ul li .del_btn {cursor:pointer; margin-top:30px;}
+.popup.enrol .area ul li .name {margin: 22px 0 0 19px;font-size:16px;}
+.popup.enrol .area ul li .edd-root {width:80px;height:32px;line-height:32px;margin: 18px 0 0 35px;border-radius:5px;padding:0;border:1px solid #34bcad;border-radius:3px;background:#cff6f2;color:#109586;}
+.popup.enrol .area ul li .edd-root::after {background:#109586;}
+.popup.enrol .area ul li .edd-option-selected::before {border-bottom: 2px solid #109586; border-left: 2px solid #109586;}
+.popup.enrol .area ul li .edd-option-focused:not(.edd-option-disabled) {color: #109586;}
+.popup.enrol .area ul li .edd-arrow {color:#3ca497; right:9px;}
+.popup.enrol .area ul li .edd-head {cursor:pointer; padding:0 25px 0 10px; }
+.popup.enrol .area ul li .add_student {cursor:pointer; text-align:center; line-height:70px; width:100%;}
+.popup.enrol .area ul li .add_student img {padding:0 5px;}
+/* 출석결과 미입력, 미승인 */
+.popup.not_attend {width:950px; padding:40px 0; display:inline-block; background:url(/global/img/not_attend_bg.gif) repeat-y 0px 50%;}
+.popup.not_attend .left_wrap,
+.popup.not_attend .right_wrap {float:left; position:relative; padding:0 30px; min-height:470px;}
+.popup.not_attend .left_wrap .tit,
+.popup.not_attend .right_wrap .tit {font-size:20px;}
+.popup.not_attend .left_wrap {width:465px;}
+.popup.not_attend .right_wrap {width:365px;}
+.popup.not_attend .student_list {width:100%; border:1px solid #e8e8ee; background:#fff;font-weight:600; border-radius: 10px;}
+.popup.not_attend .student_list ul {display:inline-block;padding-top:10px;}
+.popup.not_attend .student_list ul li {float:left;margin:0 0 10px 12px;width: 165px;}
+.popup.not_attend .student_list ul li .student {height:70px;padding: 0px 15px 0 15px;background:#fff;border:1px solid #d7d9e1;border-radius:5px;}
+.popup.not_attend .student_list ul li .del_btn,
+.popup.not_attend .student_list ul li .name {float:left;}
+.popup.not_attend .student_list ul li .del_btn {cursor:pointer; margin-top:30px;}
+.popup.not_attend .student_list ul li .name {margin: 22px 0 0 0;font-size:14px;}
+.popup.not_attend .student_list ul li .edd-root {width: 76px;height:32px;line-height:32px;margin: 18px 0 0 18px;padding:0;border:1px solid #34bcad;border-radius:3px;background:#cff6f2;color:#109586;}
+.popup.not_attend .student_list ul li .edd-root::after {background:#109586;}
+.popup.not_attend .student_list ul li .edd-option-selected::before {border-bottom: 2px solid #109586; border-left: 2px solid #109586;}
+.popup.not_attend .student_list ul li .edd-option-focused:not(.edd-option-disabled) {color: #109586;}
+.popup.not_attend .student_list ul li .edd-arrow {color:#3ca497; right:9px;}
+.popup.not_attend .student_list ul li .edd-head {cursor:pointer; padding:0 25px 0 10px; }
+.popup.not_attend .student_list ul li .add_student {cursor:pointer; text-align:center; line-height:70px; width:100%;}
+.popup.not_attend .student_list ul li .add_student img {padding:0 5px;}
+.popup.not_attend .btn_area {position:absolute;right:30px; bottom:0;}
+ul.img_file {width:100%; font-size:12px;}
+ul.img_file li {width:100%; height:40px; line-height:40px; overflow:hidden; border-bottom:1px solid #e8e8ee;}
+ul.img_file p {float:left;}
+ul.img_file li p.file_no {color:#000; font-weight:600; margin-left:10px;}
+ul.img_file li p.file_name {cursor: pointer; color:#8f94a4; margin-left:25px;}
+ul.img_file li p.file_name:hover {text-decoration: underline;}
+.img_file div {float:right; width:25px; padding:8px 0; margin-top:8px; cursor: pointer; text-align: center;}
+.img_upload {width:100%;display:inline-block;}
+.img_upload div {float:left; cursor:pointer; font-weight:600; background:#eeeef6 url(/global/img/img_upload_ico.gif) no-repeat center 40%; margin-top:10px; padding-top:90px; height:50px; width:175px; border:1px solid #d5d5ea; border-radius:5px; color:#b8bdd2; font-size:13px; text-align:center;}
+.img_upload div:first-child {margin-right:11px; }
+.attend_rate {position:absolute; left:30px; bottom:2px; font-size:14px; color:#373a44; font-weight:600;}
+.attend_rate span {font-size:24px; color:#34bcad; font-family:'Lato', sans-serif; font-weight:900;}
+
 
 /********************* DEFAULT *********************/
 /* TABLE BTN */

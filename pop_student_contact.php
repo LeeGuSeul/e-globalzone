@@ -1,7 +1,7 @@
 <?php include $_SERVER['DOCUMENT_ROOT']."/global/file/head.php"; ?>
      <!-- // -->
     <div class="popup contact">
-        <p class="tit">한국인 학생 등록 승인</p>
+        <p class="tit">유학생 연락처 정보</p>
         <div class="scroll_area">
             <table class="pop_table">
                 <thead>
