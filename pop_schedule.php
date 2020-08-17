@@ -69,13 +69,8 @@
 
         <div class="btn_area right">
             <a href="#" class="bbtn blue">등록</a>
-            <a href="#" class="bbtn">닫기</a>
+            <a href="#" class="bbtn darkGray">닫기</a>
         </div>
-        
-        <script src = "/global/js/easydropdown.js"></script>
-        <script>
-            easydropdown.all();
-        </script>
     </div>
     <!-- // -->
 <?php include $_SERVER['DOCUMENT_ROOT']."/global/file/footer.php"; ?>

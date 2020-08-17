@@ -7,7 +7,7 @@
 
         <div class="btn_area">
             <a href="" class="bbtn mint">해제</a>
-            <a href="" class="bbtn">닫기</a>
+            <a href="" class="bbtn darkGray">닫기</a>
         </div>
     </div>
     <!-- // -->

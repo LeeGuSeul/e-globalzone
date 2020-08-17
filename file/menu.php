@@ -12,4 +12,3 @@
     </div>
 	<div class="wrapper">
 		
-	<?php include $_SERVER['DOCUMENT_ROOT']."/global/file/link.php"; ?>

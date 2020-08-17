@@ -87,18 +87,11 @@
             <p class="attend_rate">출석율 : <span>60%</span></p>
 
             <div class="btn_area right">
-                <a href="" class="bbtn gray">사진업로드</a>
-                <a href="" class="bbtn mint">저장</a>
-                <a href="" class="bbtn">닫기</a>
+                <div class="bbtn gray">사진업로드</div>
+                <div class="bbtn mint">저장</div>
+                <div class="bbtn darkGray">닫기</div>
             </div>
-
-            <script src = "/global/js/easydropdown.js"></script>
-            <script>
-                easydropdown.all();
-            </script>
-            
         </div>
-
     </div>
     <!-- // -->
 <?php include $_SERVER['DOCUMENT_ROOT']."/global/file/footer.php"; ?>

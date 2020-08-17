@@ -26,6 +26,11 @@
             <div class="wrap">
                 <div class="scroll_area">
                     <table class="student_manage_table">
+                        <colgroup>
+                            <col width="10%" />
+                            <col width="12%" />
+                            <col width="15%" />
+                        </colgroup>
                         <thead>
                             <tr>
                                 <th scope="col" class="bg align">계열학과 <img src="/global/img/table_align_arrow.gif" alt="언어 기준 정렬" /></th>
@@ -42,7 +47,7 @@
                             <tr>
                                 <td>컴정</td>
                                 <td>1901192</td>
-                                <td>이일영</td>
+                                <td class="name">이일영</td>
                                 <td><div class="restriction"><img src="/global/img/restriction_off.png" alt="이용제한 해제" /></div></td>
                                 <td>010-0000-0000</td>
                                 <td>zxc1234@g.yju.ac.kr</td>
@@ -52,7 +57,7 @@
                             <tr>
                                 <td>컴정</td>
                                 <td>1901192</td>
-                                <td>이일영</td>
+                                <td class="name">이일영</td>
                                 <td><div class="restriction"><img src="/global/img/restriction_off.png" alt="이용제한 해제" /></div></td>
                                 <td>010-0000-0000</td>
                                 <td>zxc1234@g.yju.ac.kr</td>
@@ -62,7 +67,16 @@
                             <tr class="restriction_on">
                                 <td>컴정</td>
                                 <td>1901192</td>
-                                <td>이일영</td>
+                                <td class="name">
+                                    이일영
+                                    <div class="hover_btn kor">
+                                        <div class="area">
+                                            <div class="navy">비밀번호 초기화</div>
+                                            <div class="mint">이용제한 해제</div>
+                                            <div class="lightGray">삭제</div>
+                                        </div>
+                                    </div>
+                                </td>
                                 <td><div class="restriction"><img src="/global/img/restriction_on.png" alt="이용제한 진행중" /></div></td>
                                 <td>010-0000-0000</td>
                                 <td>zxc1234@g.yju.ac.kr</td>
@@ -72,7 +86,7 @@
                             <tr class="restriction_on">
                                 <td>컴정</td>
                                 <td>1901192</td>
-                                <td>이일영</td>
+                                <td class="name">이일영</td>
                                 <td><div class="restriction"><img src="/global/img/restriction_on.png" alt="이용제한 진행중" /></div></td>
                                 <td>010-0000-0000</td>
                                 <td>zxc1234@g.yju.ac.kr</td>
@@ -94,8 +108,8 @@
                 </div>
 
                 <div class="table_btn">
-                    <a href="#">신청 승인</a>
-                    <a href="#">CSV 다운</a>
+                    <div>신청 승인</div>
+                    <div>CSV 다운</div>
                 </div>
             </div>
         </div>

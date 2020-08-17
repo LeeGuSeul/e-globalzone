@@ -45,10 +45,6 @@
                         <option value="https://nursing.yju.ac.kr">간호학과</option>
                     </select>
                 </div>
-                <script src = "/global/js/easydropdown.js"></script>
-                <script>
-                    easydropdown.all();
-                </script>
             </div>
         </div>
         <?php include $_SERVER['DOCUMENT_ROOT']."/global/file/footer.php"; ?>

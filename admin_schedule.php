@@ -306,8 +306,8 @@
                 </div>
 
                 <div class="table_btn">
-                    <a href="#">개별 입력</a>
-                    <a href="#">CSV 입력</a>
+                    <div>개별 입력</div>
+                    <div>CSV 입력</div>
                 </div>
             </div>
         </div>

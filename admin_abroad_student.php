@@ -93,7 +93,15 @@
                                 <td>미국</td>
                                 <td><div class="favor"><img src="/global/img/favor_off.png" alt="즐겨찾기 off" /></div>
                                 <td>1901192</td>
-                                <td>알무카메토바 아니사</td>
+                                <td class="name"> <!-- **** 이름에 마우스 올렸을 때 보이는 메뉴 추가 ***** -->
+                                    알무카메토바 아니사
+                                    <div class="hover_btn">
+                                        <div class="area">
+                                            <div class="navy">비밀번호 초기화</div>
+                                            <div class="lightGray">삭제</div>
+                                        </div>
+                                    </div>
+                                </td>
                                 <td>건축</td>
                                 <td>3시간 30분</td>
                                 <td>2시간</td>
@@ -127,9 +135,9 @@
                 </div>
 
                 <div class="table_btn">
-                    <a href="#">연락처 정보</a>
-                    <a href="#">등록</a>
-                    <a href="#">CSV 다운</a>
+                    <div>연락처 정보</div>
+                    <div>등록</div>
+                    <div>CSV 다운</div>
                 </div>
             </div>
         </div>

@@ -76,7 +76,7 @@
 
         <div class="btn_area right">
             <a href="" class="bbtn mint">등록</a>
-            <a href="" class="bbtn">닫기</a>
+            <a href="" class="bbtn darkGray">닫기</a>
         </div>
     </div>
     <!-- // -->
