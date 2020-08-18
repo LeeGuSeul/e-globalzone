@@ -43,19 +43,19 @@
             </div>
             <!-- // -->
             <div class="wrap">
+                <ul class="sch_time">
+                    <li>9AM</li>
+                    <li>10AM</li>
+                    <li>11AM</li>
+                    <li>12PM</li>
+                    <li>1PM</li>
+                    <li>2PM</li>
+                    <li>3PM</li>
+                    <li>4PM</li>
+                    <li>5PM</li>
+                    <li>6PM</li>
+                </ul>
                 <div class="scroll_area">
-                    <ul class="sch_time">
-                        <li>9AM</li>
-                        <li>10AM</li>
-                        <li>11AM</li>
-                        <li>12PM</li>
-                        <li>1PM</li>
-                        <li>2PM</li>
-                        <li>3PM</li>
-                        <li>4PM</li>
-                        <li>5PM</li>
-                        <li>6PM</li>
-                    </ul>
                     <table class="sch_table">
                         <colgroup>
                             <col width="5%"/>

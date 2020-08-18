@@ -3,7 +3,7 @@
     <div class="popup list">
         <div class="top_tit">
             <div class="left">
-                <p class="tit">신청 학생 명단보기</p>
+                <p class="tit">출석 결과 입력하기</p>
                 <p class="txt">7월 13일(월) <span>AM09:00 ~ PM12:00</span></p>
             </div>
             <p class="name">바라트벡 울잔</p>
