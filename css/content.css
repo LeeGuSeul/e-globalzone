@@ -31,6 +31,21 @@ body {font-family:'Noto Sans KR', sans-serif;}
 .scroll_area::-webkit-scrollbar-thumb {background-color:#373a44; border-radius:10px;}
 .scroll_area::-webkit-scrollbar-track {background-color:#e1e1ea; border-radius:10px;}
 
+/* 로그인 */
+.login_wrap {width:400px; margin:30px auto; padding:30px 40px;  text-align: left;}
+.login_wrap .tit {display:inline-block; padding-right:15px; font-size:40px; font-family:'Lato', sans-serif; margin-bottom:25px; font-weight:600; color:#373a44; background:url(/global/img/login_tit_ico.gif) no-repeat right 36px;}
+/* 로그인 - 유학생 */
+.login_wrap .login_input {position:relative; width:100%; margin-top:15px; display:inline-block;}
+.login_wrap .login_input input[type="text"] {float:left; border:1px solid #ccc; border-radius:5px; height:50px; line-height:50px; width:275px; padding:0 12px; margin-top:5px;}
+.login_wrap .login_input input[type="text"]:first-child {margin-top:0px;}
+.login_wrap .login_input input[type="text"]::placeholder {font-size:13px; color:#999;}
+.login_wrap .login_input .submit {position:absolute; top:0; right:0; width:115px; height:104px; background:#2050e6; color:#fff; line-height:105px; border-radius:9px; font-size:14px; text-align:center;}
+/* 로그인 - 한국인 학생 */
+.gsuite_login {width:100%;text-align:center;padding-top: 254px;background: url(/global/img/login_gsuite.jpg) no-repeat center 40px;}
+.gsuite_login .btn {cursor:pointer; display:inline-block; padding:0 145px 0 40px; color:#373a44; font-size: 13px; background:url(/global/img/gsuite_arrow.gif) no-repeat 90% 50%; font-weight:600; text-align: left; height:50px; line-height:50px; border: 2px solid #cdced0; border-radius:100px;}
+.gsuite_login .btn:hover {background: #373a44 url(/global/img/gsuite_arrow_on.gif) no-repeat 90% 50%; color:#fff; border: 2px solid #373a44; transition-duration:0.3s;}
+.gsuite_login p {font-size:12px; color:#5c606c; margin-top:8px;}
+
 /* 스케줄 관리 */
 ul.sch_time {margin:0 0 20px 220px;overflow:hidden;}
 ul.sch_time li {float:left;font-family:'Lato', sans-serif; font-weight:600; font-size:12px;margin-left:75px;}
@@ -41,7 +56,7 @@ table.sch_table td {border:1px solid #d5d5db;}
 table.sch_table tbody th {background:#373a44; color:#fff;}
 table.sch_table tbody td {height:72px; letter-spacing:-0.05em;}
 table.sch_table tbody td .status {width:100%; min-height:42px; line-height:42px;}
-table.sch_table tbody td .status p {position:relative; z-index:1; margin-left:-1px; padding:7px 0; line-height:13px; font-size:10px; color:#fff; letter-spacing:0; font-weight:500;}
+table.sch_table tbody td .status p {position:relative; margin-left:-1px; padding:7px 0; line-height:13px; font-size:10px; color:#fff; letter-spacing:0; font-weight:500;}
 table.sch_table tbody td .status p.blue {background:#2050e6; border:1px solid #2050e6;}
 table.sch_table tbody td .status p.mint {background:#34bcad; border:1px solid #34bcad;}
 table.sch_table tbody td .status p.yellow {background:#ffa400; border:1px solid #ffa400;}
@@ -256,6 +271,18 @@ ul.img_file li p.file_name:hover {text-decoration:underline;}
 .table_btn div {cursor:pointer; display:inline-block; text-align:center; border:1px solid #cbcbd2; border-radius:3px; font-size:12px; color:#373a44; min-width:115px; height:35px; line-height:35px; font-weight:600; margin-left:5px;}
 .table_btn a:hover,
 .table_btn div:hover {background:#f7f7f7;}
+
+/* TAP */
+ul.tab {width:100%; display:inline-block;}
+ul.tab li {cursor:pointer; float:left; border:1px solid #373a44; background:#fff; font-size:13px; box-sizing:border-box; margin-left:-1px; height:45px; line-height:45px; text-align:center;}
+ul.tab li.on,
+ul.tab li:hover {background:#373a44; transition-duration: 0.3s; color:#fff;}
+ul.tab li:first-child {border-radius:5px 0 0 5px;}
+ul.tab li:last-child {border-radius:0 5px 5px 0;}
+ul.tab.no2 li{width:50%;}
+ul.tab.no3 li{width:33.3%;}
+ul.tab.no4 li{width:25%;}
+ul.tab.no5 li{width:20%;}
 
 /* CHECK BOX - 스케줄관리 상단 */
 .check_box_area {float:right; margin-top:25px;}

@@ -19,6 +19,6 @@
   <title>YJU - 글로벌존 예약시스템</title>
  </head>
  	<body>
-	 <!-- <?php include $_SERVER['DOCUMENT_ROOT']."/global/file/link.php"; ?> -->
+	 <?php include $_SERVER['DOCUMENT_ROOT']."/global/file/link.php"; ?>
 
         
