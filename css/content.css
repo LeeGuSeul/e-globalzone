@@ -167,14 +167,15 @@ table.student_manage_table td:first-child {background:#fff;}
 .week_wrap .day_week li {float:left;width:120px;font-size:13px;color:#373a44;text-align:center;}
 .week_wrap .day_week li span {width:46px; height:46px; line-height:46px; display:block;  margin:8px auto 0 auto; font-size:22px; font-family:'Lato', sans-serif; font-weight:400; }
 .week_wrap .day_week li span.today {background:url(/global/img/day_week_bg.gif) no-repeat center 50%; color:#fff;}
-.week_wrap .week_table {width:100%; display:inline-block;}
-.week_wrap .week_table ul {float:left;margin-top:138px;}
-.week_wrap .week_table ul li {font-family:'Lato', sans-serif;font-weight:800;font-size:12px;height:15px;margin-bottom:43px;}
+.week_wrap .week_table {width:100%;display:inline-block;margin-bottom: 50px;}
+.week_wrap .week_table ul {float:left;margin-top: 60px;}
+.week_wrap .week_table ul li {font-family:'Lato', sans-serif;font-weight:800;font-size:12px;height:15px;margin-top: 80px;}
 .week_wrap .week_table table {float:right; width:95%; margin-top:85px; border-collapse:collapse; color:#373a44; font-size:12px; font-weight:500;}
-.week_wrap .week_table table tbody td {border:1px solid #d5d5db; border-top:none; height:58px; color:#fff;}
+.week_wrap .week_table table tbody td {border:1px solid #d5d5db;border-top:none;height: 95px;color:#fff;vertical-align: top;}
 .week_wrap .week_table table tbody tr:first-child td {border-top:none; height:30px;}
 .week_wrap .week_table table tbody tr:nth-child(2) td {height:30px;}
-.week_wrap .week_table table tbody td div {display:table; width:100%; height:100%; text-align:center;}
+.week_wrap .week_table table tbody td div {display:table;width:100%;height: 50%;text-align:center;}
+.week_wrap .week_table table tbody td div:nth-child(2) {border-top:1px solid #292929a6;}
 .week_wrap .week_table table tbody td div p {display:table-cell; vertical-align:middle; line-height:135%; font-size:11px;}
 .week_wrap .week_table table tbody td div.blue {background:#2050e6;}
 .week_wrap .week_table table tbody td div.mint {background:#34bcad;}

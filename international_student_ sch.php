@@ -70,6 +70,12 @@
                                         예약 미승인 : 6명
                                     </p>
                                 </div>
+                                <div class="blue">
+                                    <p>
+                                        신청한 학생 : 8명<br />
+                                        예약 미승인 : 6명
+                                    </p>
+                                </div>
                             </td>
                             <td></td>
                             <td></td>
@@ -79,14 +85,7 @@
                         </tr>
                         <tr>
                             <td></td>
-                            <td>
-                                <div class="blue">
-                                    <p>
-                                        신청한 학생 : 8명<br />
-                                        예약 미승인 : 6명
-                                    </p>
-                                </div>
-                            </td>
+                            <td></td>
                             <td></td>
                             <td></td>
                             <td>
