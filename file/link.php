@@ -1,5 +1,5 @@
 <div class="link_baro">
-    <a href="admin_schedule.php">· 스케줄 관리 ★</a>
+    <a href="admin_schedule.php">· 스케줄 관리(범례)</a>
     <a href="admin_abroad_student.php">· 유학생 관리 ★</a>
     <a href="admin_student.php">· 한국인 학생 관리 ★</a>
     <a href="pop_restriction_lift.php">· [Modal]이용제한 해제</a>
@@ -12,6 +12,13 @@
     <a href="pop_result_enter.php">· [Modal]출석 결과 입력하기</a>
     <a href="pop_student_appr.php">· [Modal]한국인 학생 등록 승인 ★</a>
     <a href="pop_student_enrol.php">· [Modal]신청 학생 명단보기 - 관리자</a>
+
+    <p class="mt10 mb5" style="background:#ededed; padding:5px; font-size:13px;">추가 페이지</p>
+    <a href="admin_sch_work.php">· 근무 시간표 편성</a>
+    <a href="admin_system_setting.php">· 시스템 환경설정</a>
+    <a href="pop_semester_inquiry.php">· [Modal] 학기 기간 조회</a>
+    <a href="pop_semester_set.php">· [Modal] 학기 기간 설정</a>
+    <a href="pop_student_regist.php">· [Modal] 유학생 등록</a>
 </div>
 
 <style>

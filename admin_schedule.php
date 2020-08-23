@@ -41,6 +41,21 @@
                     </div>
                 </div>
             </div>
+            <!-- -->
+            <div class="sch_info">
+                <ul>
+                    <li class="ico01">[예약현황] 미승인 / 총 신청 학생</li>
+                    <li class="ico02">[예약 승인 완료]</li>
+                </ul>
+                <ul>
+                    <li class="ico03">[결과 미입력] 출석 학생</li>
+                    <li class="ico04">[결과 입력 완료]</li>
+                </ul>
+                <ul>
+                    <li class="ico05">[관리자 미승인] 출석 학생</li>
+                    <li class="ico06">[관리자 승인 완료]</li>
+                </ul>
+            </div>
             <!-- // -->
             <div class="wrap">
                 <ul class="sch_time">
@@ -58,53 +73,52 @@
                 <div class="scroll_area">
                     <table class="sch_table">
                         <colgroup>
-                            <col width="5%"/>
-                            <col width="14%"/>
+                            <col width="4%"/>
+                            <col width="12%"/>
                             <col width="9%" span="9"/>
                         </colgroup>
                         <tbody>
+                            <!--  
+                                state1 :: [예약현황] 미승인 / 총 신청 학생
+                                state2 :: [예약 승인 완료] 
+                                state3 :: [결과 미입력] 출석 학생
+                                state4 :: [결과 입력 완료]
+                                state5 :: [관리자 미승인] 출석 학생
+                                state6 :: [관리자 승인 완료]
+                                state7 :: 예약없음 
+                            -->
                             <tr>
                                 <th scope="row" rowspan="5">영어</th>
                                 <td>쉬라이 알리오트 시나</td>
                                 <td>
-                                    <div class="status">
-                                        <p class="blue">신청한 학생 : 8명<br />
-                                        예약 미승인 : 6명</p>
-                                    </div>
+                                    <div class="state_box state1"><p>8 / <span>3</span></p></div>
+                                    <div class="state_box state1"><p>7 / <span>2</span></p></div>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <div class="state_box state2"><p>2</p></div>
+                                    <div class="state_box state7"></div>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <div class="state_box state3"><p>2</p></div>
+                                    <div class="state_box state5"><p>2</p></div>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <div class="state_box state4"></div>
                                 </td>
                                 <td>
-                                    <div class="status">
-                                        <p class="blue">신청한 학생 : 8명<br />
-                                        예약 미승인 : 6명</p>
-                                    </div>
+                                    <div class="state_box state6"></div>
                                 </td>
-                                <td>
-                                    <div class="status">
-                                        <p class="blue">신청한 학생 : 8명<br />
-                                        예약 미승인 : 6명</p>
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
                                 <td></td>
                             </tr>
                             <!-- // -->
                             <tr>
                                 <td>드로즈드 캣시아 리나</td>
                                 <td></td>
-                                <td>
-                                    <div class="status">
-                                        <p class="mint oneline">8명 예약완료</p>
-                                    </div>
-                                </td>
-                                <td>
-                                <div class="status">
-                                    <p class="mint oneline">3명 예약완료</p>
-                                </div>
-                                </td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -116,22 +130,10 @@
                             <tr>
                                 <td>마르친</td>
                                 <td></td>
-                                <td>
-                                    <div class="status ">
-                                        <p class="gray oneline">예약 없음</p>
-                                    </div>
-                                </td>
                                 <td></td>
-                                <td>
-                                    <div class="status ">
-                                        <p class="blue oneline">예약 미승인 :  10명</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="status ">
-                                        <p class="mint oneline">10명 예약 완료</p>
-                                    </div>
-                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -141,22 +143,10 @@
                             <tr>
                                 <td>케루젤 타티아나</td>
                                 <td></td>
-                                <td>
-                                    <div class="status ">
-                                        <p class="gray oneline">예약 없음</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="status ">
-                                        <p class="gray oneline">예약 없음</p>
-                                    </div>
-                                </td>
                                 <td></td>
-                                <td>
-                                    <div class="status ">
-                                        <p class="mint oneline">10명 예약 완료</p>
-                                    </div>
-                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -165,64 +155,23 @@
                             <!-- // -->
                             <tr>
                                 <td>볼디레바 엘레나</td>
-                                <td>
-                                    <div class="status">
-                                        <p class="blue">신청한 학생 : 8명<br />
-                                        예약 미승인 : 6명</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="status">
-                                        <p class="blue">신청한 학생 : 8명<br />
-                                        예약 미승인 : 6명</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="status ">
-                                        <p class="gray oneline">예약 없음</p>
-                                    </div>
-                                </td>
                                 <td></td>
                                 <td></td>
-                                <td>
-                                    <div class="status ">
-                                        <p class="gray oneline">예약 없음</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="status ">
-                                        <p class="gray oneline">예약 없음</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="status ">
-                                        <p class="gray oneline">예약 없음</p>
-                                    </div>
-                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                             </tr>
                             <!-- // -->
                             <tr>
                                 <th scope="row" rowspan="4">일본어</th>
                                 <td>오카 우라라</td>
-                                <td>
-                                    <div class="status">
-                                        <p class="blue">신청한 학생 : 8명<br />
-                                        예약 미승인 : 6명</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="status">
-                                        <p class="blue">신청한 학생 : 8명<br />
-                                        예약 미승인 : 6명</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="status">
-                                        <p class="yellow">참가 학생 : 5명<br />
-                                        [결과 미승인]</p>
-                                    </div>
-                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -237,21 +186,9 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>
-                                    <div class="status">
-                                        <p class="puple oneline">결과 입력완료</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="status">
-                                        <p class="puple oneline">결과 입력완료</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="status">
-                                        <p class="gray oneline">예약 없음</p>
-                                    </div>
-                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                             </tr>
@@ -259,18 +196,8 @@
                             <tr>
                                 <td>카와이 하나코</td>
                                 <td></td>
-                                <td>
-                                    <div class="status">
-                                        <p class="yellow">참가 학생 : 5명<br />
-                                        [결과 미승인]</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="status">
-                                        <p class="yellow">참가 학생 : 10명<br />
-                                        [결과 미승인]</p>
-                                    </div>
-                                </td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -282,18 +209,8 @@
                             <tr>
                                 <td>카와이 하나코</td>
                                 <td></td>
-                                <td>
-                                    <div class="status">
-                                        <p class="yellow">참가 학생 : 5명<br />
-                                        [결과 미승인]</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="status">
-                                        <p class="yellow">참가 학생 : 10명<br />
-                                        [결과 미승인]</p>
-                                    </div>
-                                </td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
