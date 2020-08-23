@@ -26,195 +26,197 @@
                 <li>토<span>18</span></li>
             </ul>
             <div class="week_table">
-                <ul>    
-                    <li>9AM</li>    
-                    <li>10AM</li>    
-                    <li>11AM</li>    
-                    <li>12PM</li>    
-                    <li>1PM</li>    
-                    <li>2PM</li>    
-                    <li>3PM</li>    
-                    <li>4PM</li>    
-                    <li>5PM</li>    
-                    <li>6PM</li>
-                </ul>
-                <table>
-                    <colgroup>
-                        <col width="14.2%" span="7" />
-                    </colgroup>
-                    <tbody>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>
-                                <div class="blue">
-                                    <p>
-                                        신청한 학생 : 8명<br />
-                                        예약 미승인 : 6명
-                                    </p>
-                                </div>
-                                <div class="blue">
-                                    <p>
-                                        신청한 학생 : 8명<br />
-                                        예약 미승인 : 6명
-                                    </p>
-                                </div>
-                            </td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                                <div class="yellow">
-                                    <p>
-                                        참가 학생 : 7명<br />
-                                        [결과 미입력]
-                                    </p>
-                                </div>
-                            </td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>
-                                <div class="blue">
-                                    <p>
-                                        신청한 학생 : 8명<br />
-                                        예약 미승인 : 6명
-                                    </p>
-                                </div>
-                            </td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                                <div class="yellow">
-                                    <p>
-                                        참가 학생 : 7명<br />
-                                        [결과 미입력]
-                                    </p>
-                                </div>
-                            </td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>
-                                <div class="mint">
-                                    <p>
-                                        8명 예약 완료
-                                    </p>
-                                </div>
-                            </td>
-                            <td></td>
-                            <td>
-                                <div class="gray"">
-                                    <p>
-                                        예약 없음
-                                    </p>
-                                </div>
-                            </td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>
-                                <div class="mint">
-                                    <p>
-                                        6명 예약 완료
-                                    </p>
-                                </div>
-                            </td>
-                            <td></td>
-                            <td>
-                                <div class="puple"">
-                                    <p>
-                                        결과 입력완료
-                                    </p>
-                                </div>
-                            </td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>
-                                <div class="blue">
-                                    <p>
-                                        신청한 학생 : 8명<br />
-                                        예약 미승인 : 6명
-                                    </p>
-                                </div>
-                            </td>
-                            <td></td>
-                            <td>
-                                <div class="puple"">
-                                    <p>
-                                        결과 입력완료
-                                    </p>
-                                </div>
-                            </td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="scroll_area">
+                    <ul>    
+                        <li>9AM</li>    
+                        <li>10AM</li>    
+                        <li>11AM</li>    
+                        <li>12PM</li>    
+                        <li>1PM</li>    
+                        <li>2PM</li>    
+                        <li>3PM</li>    
+                        <li>4PM</li>    
+                        <li>5PM</li>    
+                        <li>6PM</li>
+                    </ul>
+                    <table>
+                        <colgroup>
+                            <col width="14.2%" span="7" />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <div class="blue">
+                                        <p>
+                                            신청한 학생 : 8명<br />
+                                            예약 미승인 : 6명
+                                        </p>
+                                    </div>
+                                    <div class="blue">
+                                        <p>
+                                            신청한 학생 : 8명<br />
+                                            예약 미승인 : 6명
+                                        </p>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <div class="yellow">
+                                        <p>
+                                            참가 학생 : 7명<br />
+                                            [결과 미입력]
+                                        </p>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <div class="blue">
+                                        <p>
+                                            신청한 학생 : 8명<br />
+                                            예약 미승인 : 6명
+                                        </p>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <div class="yellow">
+                                        <p>
+                                            참가 학생 : 7명<br />
+                                            [결과 미입력]
+                                        </p>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <div class="mint">
+                                        <p>
+                                            8명 예약 완료
+                                        </p>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <div class="gray"">
+                                        <p>
+                                            예약 없음
+                                        </p>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <div class="mint">
+                                        <p>
+                                            6명 예약 완료
+                                        </p>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <div class="puple"">
+                                        <p>
+                                            결과 입력완료
+                                        </p>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <div class="blue">
+                                        <p>
+                                            신청한 학생 : 8명<br />
+                                            예약 미승인 : 6명
+                                        </p>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <div class="puple"">
+                                        <p>
+                                            결과 입력완료
+                                        </p>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>

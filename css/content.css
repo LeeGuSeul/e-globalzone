@@ -162,15 +162,17 @@ table.student_manage_table td:first-child {background:#fff;}
 .status_wrap .status_box div.puple {background:#6e4bdd;}
 .status_wrap .status_box div.yellow {background:#ffa400;}
 .status_wrap .status_box div.gray {background:#373a44;}
-.week_wrap {position:relative; float:right; width:884px; padding-left:15px; border-left:1px solid #eaebef;}
-.week_wrap .day_week {position:absolute;top:30px;right:0;width:94%;}
-.week_wrap .day_week li {float:left;width:120px;font-size:13px;color:#373a44;text-align:center;}
+.week_wrap {position:relative; float:right; width:883px; padding-left:15px; border-left:1px solid #eaebef;}
+.week_wrap .day_week {position:absolute;top:30px;left: 57px;width: 792px;}
+.week_wrap .day_week li {float:left;width: 113px;font-size:13px;color:#373a44;text-align:center;}
 .week_wrap .day_week li span {width:46px; height:46px; line-height:46px; display:block;  margin:8px auto 0 auto; font-size:22px; font-family:'Lato', sans-serif; font-weight:400; }
-.week_wrap .day_week li span.today {background:url(/global/img/day_week_bg.gif) no-repeat center 50%; color:#fff;}
-.week_wrap .week_table {width:100%;display:inline-block;margin-bottom: 50px;}
-.week_wrap .week_table ul {float:left;margin-top: 60px;}
-.week_wrap .week_table ul li {font-family:'Lato', sans-serif;font-weight:800;font-size:12px;height:15px;margin-top: 80px;}
-.week_wrap .week_table table {float:right; width:95%; margin-top:85px; border-collapse:collapse; color:#373a44; font-size:12px; font-weight:500;}
+.week_wrap .day_week li span.today {background:url(/global/img/day_week_bg.png) no-repeat center 50%; color:#fff;}
+.week_wrap .week_table {width:100%;display:inline-block;margin-bottom: 30px;}
+.week_wrap .week_table ul {float:left;margin-top: 54px;}
+.week_wrap .week_table ul li {font-family:'Lato', sans-serif;font-weight:800;font-size:12px;height:15px;margin-bottom: 80px;}
+.week_wrap .week_table ul li:last-child {margin-bottom:0px;}
+.week_wrap .week_table .scroll_area {width:839px;margin-top: 85px;}
+.week_wrap .week_table table {float:right; width:95%; border-collapse:collapse; color:#373a44; font-size:12px; font-weight:500;}
 .week_wrap .week_table table tbody td {border:1px solid #d5d5db;border-top:none;height: 95px;color:#fff;vertical-align: top;}
 .week_wrap .week_table table tbody tr:first-child td {border-top:none; height:30px;}
 .week_wrap .week_table table tbody tr:nth-child(2) td {height:30px;}
