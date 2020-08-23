@@ -2,6 +2,7 @@
     <a href="admin_schedule.php">· 스케줄 관리(범례)</a>
     <a href="admin_abroad_student.php">· 유학생 관리 ★</a>
     <a href="admin_student.php">· 한국인 학생 관리 ★</a>
+    <a href="international_student_ sch.php">· 스케줄 및 예약관리</a>
     <a href="pop_restriction_lift.php">· [Modal]이용제한 해제</a>
     <a href="pop_restriction.php">· [Modal]이용제한 등록 ★</a>
     <a href="pop_student_contact.php">· [Modal]유학생 연락처 정보</a>

@@ -177,7 +177,6 @@ table.student_manage_table td:first-child {background:#fff;}
 .week_wrap .week_table table tbody tr:first-child td {border-top:none; height:30px;}
 .week_wrap .week_table table tbody tr:nth-child(2) td {height:30px;}
 .week_wrap .week_table table tbody td div {display:table;width:100%;height: 50%;text-align:center;}
-.week_wrap .week_table table tbody td div:nth-child(2) {border-top:1px solid #292929a6;}
 .week_wrap .week_table table tbody td div p {display:table-cell; vertical-align:middle; line-height:135%; font-size:11px;}
 .week_wrap .week_table table tbody td div.blue {background:#2050e6;}
 .week_wrap .week_table table tbody td div.mint {background:#34bcad;}
