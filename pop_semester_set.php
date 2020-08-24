@@ -56,7 +56,12 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>1</td>
+                        <td>
+                            <div class="table_check">
+                                <input type="checkbox" id="a0" name="" />
+                                <label for="a0"></label>
+                            </div>
+                        </td>
                         <td>영어</td>
                         <td>미국</td>
                         <td>1901192</td>
@@ -68,7 +73,12 @@
                         <td>7589</td>
                     </tr>
                     <tr>
-                        <td>1</td>
+                        <td>
+                            <div class="table_check">
+                                <input type="checkbox" id="a1" name="" />
+                                <label for="a1"></label>
+                            </div>
+                        </td>
                         <td>영어</td>
                         <td>미국</td>
                         <td>1901192</td>
@@ -80,7 +90,12 @@
                         <td>7589</td>
                     </tr>
                     <tr>
-                        <td>1</td>
+                        <td>
+                            <div class="table_check">
+                                <input type="checkbox" id="a2" name="" />
+                                <label for="a2"></label>
+                            </div>
+                        </td>
                         <td>영어</td>
                         <td>미국</td>
                         <td>1901192</td>
@@ -92,7 +107,12 @@
                         <td>7589</td>
                     </tr>
                     <tr>
-                        <td>1</td>
+                        <td>
+                            <div class="table_check">
+                                <input type="checkbox" id="a3" name="" />
+                                <label for="a3"></label>
+                            </div>
+                        </td>
                         <td>영어</td>
                         <td>미국</td>
                         <td>1901192</td>
@@ -104,7 +124,12 @@
                         <td>7589</td>
                     </tr>
                     <tr>
-                        <td>1</td>
+                        <td>
+                            <div class="table_check">
+                                <input type="checkbox" id="a4" name="" />
+                                <label for="a4"></label>
+                            </div>
+                        </td>
                         <td>영어</td>
                         <td>미국</td>
                         <td>1901192</td>
@@ -116,19 +141,12 @@
                         <td>7589</td>
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>영어</td>
-                        <td>미국</td>
-                        <td>1901192</td>
-                        <td>바라트벡 울잔</td>
-                        <td>컴정</td>
-                        <td>010-0000-0000</td>
-                        <td>zxc1234@naver.com</td>
-                        <td>211 233 1564</td>
-                        <td>7589</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
+                        <td>
+                            <div class="table_check">
+                                <input type="checkbox" id="a5" name="" />
+                                <label for="a5"></label>
+                            </div>
+                        </td>
                         <td>영어</td>
                         <td>미국</td>
                         <td>1901192</td>

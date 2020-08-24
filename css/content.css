@@ -300,7 +300,7 @@ table.pop_table3 td { border-bottom:1px solid #d5d5db; padding:12px 0;}
 .popup.sch .select_area .area .edd-arrow::before {right:7px;}
 .popup.sch .select_area .area span {display:inline-block; height:53px; line-height:53px; margin-top:-45px; vertical-align:middle;}
 .popup.sch .select_area .area.student .edd-root {width:175px;}
-.regist_btn {display:inline-block;background:#222;width:53px;height:50px;vertical-align:bottom;margin-top:25px;color:#fff;text-align:center;line-height:50px;border-radius:5px; cursor:pointer; font-size:14px;}
+.regist_btn {display:inline-block;background:#222;width: 52px;height:50px;vertical-align:bottom;margin-top:25px;color:#fff;text-align:center;line-height:50px;border-radius:5px;cursor:pointer;font-size:14px;}
 /* 신청 학생 명단보기 */
 .popup.enrol {width:500px; text-align:left; color:#373a44; font-weight:600;}
 .top_tit {display:inline-block;width:100%;font-weight:600;margin-bottom:35px;}
@@ -393,7 +393,7 @@ ul.img_file li p.file_name:hover {text-decoration:underline;}
 .popup.regist .add_btn:hover span {color:#fff; background:url(/global/img/add_btn_icoOn.gif) no-repeat right center;}
 
 /* 환경설정 - 학기 기간 설정 */
-.popup.semester {position:relative; width:890px;}
+.popup.semester {position:relative;width: 915px;}
 .popup.semester .top_select {position:absolute;top: 40px;right:40px;display:inline-block;}
 .popup.semester .top_select span {float:left; line-height:43px; font-size:13px; margin-left:5px;}
 .popup.semester .top_select .edd-root {float:left; font-size:13px; width:85px; padding:5px 10px 5px 20px; color:#373a44; border-radius:5px; border:1px solid #ccc;}
