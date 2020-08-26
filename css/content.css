@@ -371,9 +371,9 @@ ul.img_file li p.file_name:hover {text-decoration:underline;}
 .attend_rate span {font-size:24px; color:#34bcad; font-family:'Lato', sans-serif; font-weight:900;}
 
 /* 유학생 등록 */
-.popup.regist {width:925px;}
+.popup.regist {width:925px; position:relative;}
 .popup.regist table {font-size:12px;}
-.popup.regist .scroll_area {height:175px;}
+.popup.regist .scroll_area {height:300px;}
 .regist_input {width:100%; display:inline-block; margin-top:15px;}
 .regist_input li {float:left; margin-left:5px;}
 .regist_input li:first-child {margin-left:0px;}
@@ -391,16 +391,18 @@ ul.img_file li p.file_name:hover {text-decoration:underline;}
 .popup.regist .add_btn span {display:inline-block; font-size:13px; color:#34bcad; font-weight:600; padding-right:20px; background:url(/global/img/add_btn_ico.gif) no-repeat right center;}
 .popup.regist .add_btn:hover {background:#34bcad; transition-duration:0.3s;}
 .popup.regist .add_btn:hover span {color:#fff; background:url(/global/img/add_btn_icoOn.gif) no-repeat right center;}
+.popup.regist .search_box {position:absolute; right:45px; top:40px;}
+.popup.regist .search_box input {border:1px solid #ccc; padding:0 10px; height:40px; line-height:40px; width:200px;}
+.popup.regist .search_box button {background:#34bcad; color:#fff; border:none;height:40px; line-height:40px; padding:0 18px; border-radius:5px;  font-weight:600; font-size:13px; font-family: 'Noto Sans KR', sans-serif;}
+
 
 /* 환경설정 - 학기 기간 설정 */
-.popup.semester {position:relative;width: 915px;}
+.popup.semester {position:relative;width: 615px;}
 .popup.semester .top_select {position:absolute;top: 40px;right:40px;display:inline-block;}
 .popup.semester .top_select span {float:left; line-height:43px; font-size:13px; margin-left:5px;}
-.popup.semester .top_select .edd-root {float:left; font-size:13px; width:85px; padding:5px 10px 5px 20px; color:#373a44; border-radius:5px; border:1px solid #ccc;}
+.popup.semester .top_select .edd-root {margin-left:10px; float:left; font-size:13px; width:85px; padding:5px 10px 5px 20px; color:#373a44; border-radius:5px; border:1px solid #ccc;}
 .popup.semester .top_select .edd-root:first-child {margin-left:0; width:115px;}
-.popup.semester .search_box {float:right; margin: 30px 0 15px 0;}
-.popup.semester .search_box input {border:1px solid #ccc; padding:0 10px; height:40px; line-height:40px; width:200px;}
-.popup.semester .search_box button {background:#34bcad; color:#fff; border:none;height:40px; line-height:40px; padding:0 18px; border-radius:5px;  font-weight:600; font-size:13px; font-family: 'Noto Sans KR', sans-serif;}
+.popup.semester .btn {cursor:pointer; float:left; margin-left:15px; height:43px; line-height:43px; border-radius:5px; padding:0 16px; background:#373a44; color:#fff; font-size:13px;}
 .date_select {width:100%;text-align:center;padding:30px 0;border:1px solid #34bcad;border-radius:5px;background:#f1fffd;margin-top: 10px;display: inline-block;}
 .date_select span {margin:0 10px;}
 .date_select .start_date {display:inline-block; text-align:left;}
@@ -419,6 +421,16 @@ box-shadow: 2px 3px 12px 0px rgba(48, 152, 127, 0.25);}
 .popup.inquiry table td img {cursor:pointer; display:inline-block; margin-left:8px; vertical-align: middle;}
 .popup.inquiry table td .cursor {display:inline-block; cursor:pointer; }
 .popup.inquiry table td .cursor:hover {text-decoration: underline;}
+
+/* 유학생 계정 생성 */
+.popup.account {position:relative; width: 855px;background: #f4f8fb; padding-top:30px;}
+.popup.account .input_area {padding:25px 20px 20px 20px;background: #ffffff;text-align: center;border-radius: 10px;margin-top: 25px;-webkit-box-shadow: 2px 3px 12px 0px rgba(122, 144, 204, 0.2);-moz-box-shadow: 2px 3px 12px 0px rgba(122, 144, 204, 0.2);box-shadow: 2px 3px 12px 0px rgba(122, 144, 204, 0.2);}
+.popup.account table {display: inline-block;font-size:12px;}
+.popup.account table td {padding:0 10px;}
+.popup.account table td p {color:#373a44;font-weight: 600;margin-bottom:5px;}
+.popup.account table td input {border:none;margin-bottom: 14px;border: 1px solid #dadbde;background: #eff4f7;height: 40px;line-height: 40px;padding: 0 10px;width: 180px;}
+.popup.account table td input:focus {outline: none !important; border:1px solid  #373a44; transition-duration: 0.3s;}
+.popup.account .btn_area {position:absolute; right:45px; top:5px;}
 
 /********************* DEFAULT *********************/
 /* TABLE BTN */

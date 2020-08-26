@@ -16,6 +16,7 @@
                 <option>겨울</option>
             </select>
             <span>학기</span>
+            <div class="btn">저장</div>
         </div>
         <!-- -->
         <div class="date_select">
@@ -29,12 +30,10 @@
                 <div class="date">2020-08-24</div>
             </div>
         </div>
-        <!-- -->
-        <div class="search_box">
+        <!-- <div class="search_box">
             <input type="text" />
             <button>검색</button>
         </div>
-        <!-- -->
         <div class="scroll_area mt20">
             <table class="pop_table">
                 <colgroup>
@@ -159,9 +158,9 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
+        </div> 
         <div class="btn_area right">
             <div class="bbtn darkGray">저장</div>
-        </div>
+        </div>-->
     </div>
 <?php include $_SERVER['DOCUMENT_ROOT']."/global/file/footer.php"; ?>
