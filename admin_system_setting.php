@@ -71,12 +71,7 @@
                         <div class="input">
                             <div class="select_tit"><span class="bold">미팅 시간</span></div>
                             <div class="select_input">
-                                <select name="catgo1" class="dropdown">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                </select>
+                                <input type="text">
                                 <span>분</span>
                             </div>
                         </div>

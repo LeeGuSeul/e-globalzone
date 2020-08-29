@@ -75,7 +75,7 @@ table.sch_table th,
 table.sch_table td {border:1px solid #d5d5db;}
 table.sch_table tbody th {background:#373a44; color:#fff; font-size:11px;}
 table.sch_table tbody td {height:72px; letter-spacing:-0.05em;}
-.state_box {float:left; width:50%; min-height:42px; line-height:42px; color:#fff;}
+.state_box {position:relative; float:left; width:50%; min-height:42px; line-height:42px; color:#fff;}
 .state_box p {padding-left:20px;font-size:10px;display: inline-block;}
 
 /* state1 :: [예약현황] 미승인 / 총 신청 학생 */
@@ -131,6 +131,9 @@ box-shadow:5px 5px 20px 0px rgba(0,0,0,0.2);}
 .hover_btn .area div.lightGray {background:#eaeaea; color:#373a44; border:1px solid #cfcfcf;}
 .hover_btn .area div.mint {background:#34bcad; color:#fff; border:1px solid #34bcad;}
 .hover_btn .area div:hover {background:#6e4bdd; border:1px solid #6e4bdd;transition-duration:0.4s; color:#fff;}
+/* 스케줄관리 hover button [2020-08-29 추가] */
+.hover_btn.sch {width:53px;}
+.hover_btn.sch .area {background-position:50% bottom;}
 
 /* 유학생 관리, 한국인 학생 관리 공용 테이블 */
 table.student_manage_table {width:100%; border-collapse:collapse; color:#373a44; font-size:12px; font-weight:500; border-bottom:1px solid #bcbfc7;}
@@ -200,7 +203,8 @@ table.student_manage_table td:first-child {background:#fff;}
 .set_wrap .input .select_tit {float:left;width: 153px;margin-right: 45px;line-height:38px;font-size: 14px;color:#373a44;font-weight:400;}
 .set_wrap .input .select_tit.line2 {line-height: 19px;}
 .set_wrap .input .select_tit.line2 span.ex {display:block; font-size:11px; color:#3253ba;}
-.set_wrap .input .select_input .edd-root {float:left; margin:0; font-size:13px; width:75px; height:38px; line-height:38px; padding:0 8px 0 20px; color:#373a44; border-radius:5px; background:#fff; border:1px solid #ccc;}
+.set_wrap .input .select_input .edd-root,
+.set_wrap .input .select_input input[type="text"] {float:left; font-weight:600; color:#000; margin:0; font-size:13px; width:75px; height:38px; line-height:38px; padding:0 8px 0 20px; color:#373a44; border-radius:5px; background:#fff; border:1px solid #ccc;}
 .set_wrap .input .select_input span {display:inline-block;line-height:38px;margin-left: 4px;font-size: 13px;}
 .set_wrap .set_box .input:nth-child(2n+1) {margin-left: 50px;}
 .set_wrap .sch_box .input_area {position:absolute;right:35px;top: 57px;width:245px;}
@@ -431,6 +435,15 @@ box-shadow: 2px 3px 12px 0px rgba(48, 152, 127, 0.25);}
 .popup.account table td input {border:none;margin-bottom: 14px;border: 1px solid #dadbde;background: #eff4f7;height: 40px;line-height: 40px;padding: 0 10px;width: 180px;}
 .popup.account table td input:focus {outline: none !important; border:1px solid  #373a44; transition-duration: 0.3s;}
 .popup.account .btn_area {position:absolute; right:45px; top:5px;}
+
+/* 비밀번호 변경 */
+.ch_passwd_wrap {}
+.ch_passwd_wrap .input_area {width:350px; padding:160px 40px 40px 40px; margin:50px auto; border:1px solid #ddd; border-radius:10px; font-size:14px; background:url(/global/img/password_ico.gif) no-repeat center 45px;}
+.ch_passwd_wrap .input_area input,
+.ch_passwd_wrap .input_area button {width:100%; height:45px; border:1px solid #cacaca; border-radius:7px; padding:0 10px; margin-bottom:10px;}
+.ch_passwd_wrap .input_area p.info {font-size:13px; font-weight:500; letter-spacing:-0.05em;}
+.ch_passwd_wrap .input_area p.info span {color:#2050e6; text-decoration:underline;}
+.ch_passwd_wrap .input_area button { color:#fff; background:#2050e6; border:none; padding:0; border-radius:7px; margin-top:30px; font-weight:600;}
 
 /********************* DEFAULT *********************/
 /* TABLE BTN */

@@ -70,7 +70,7 @@
                     <li>5PM</li>
                     <li>6PM</li>
                 </ul>
-                <div class="scroll_area">
+                <div class="scroll_area pt40">
                     <table class="sch_table">
                         <colgroup>
                             <col width="4%"/>
@@ -96,7 +96,14 @@
                                 </td>
                                 <td></td>
                                 <td>
-                                    <div class="state_box state2"><p>2</p></div>
+                                    <div class="state_box state2">
+                                        <p>2</p>
+                                        <div class="hover_btn sch">
+                                            <div class="area">
+                                                <div class="lightGray">삭제</div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="state_box state7"></div>
                                 </td>
                                 <td></td>
