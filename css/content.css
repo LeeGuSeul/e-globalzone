@@ -458,6 +458,14 @@ box-shadow: 2px 3px 12px 0px rgba(48, 152, 127, 0.25);}
 .join_add_wrap .input_area input[type="text"]::placeholder {font-size:13px; color:#999; font-weight:600;}
 .join_add_wrap .input_area button { color:#fff; background:#2050e6; border:none; padding:0; border-radius:7px; margin-top:10px; font-weight:600;}
 
+/* 학과명 입력*/
+.popup.depart_regist {width:360px;}
+.popup.depart_regist .gray_bg {border:1px solid #e8e8ee; background:#f7f7f9; border-radius:10px; text-align:center; padding:20px 0;}
+.popup.depart_regist label {display:inline-block; width:100%; font-size:13px; font-weight:500;}
+.popup.depart_regist label:first-child {margin-bottom:10px;}
+.popup.depart_regist label input {border:1px solid #ddd; height:43px; line-height:43px; padding:0 13px; width:250px; margin-left:10px; font-size:13px;}
+.popup.depart_regist label input[type="text"]::placeholder {font-size:11px; color:#a5a5a5;}
+
 /********************* DEFAULT *********************/
 /* TABLE BTN */
 .table_btn {width:100%; text-align:right; margin-top:25px;}
