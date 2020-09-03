@@ -466,6 +466,10 @@ box-shadow: 2px 3px 12px 0px rgba(48, 152, 127, 0.25);}
 .popup.depart_regist label input {border:1px solid #ddd; height:43px; line-height:43px; padding:0 13px; width:250px; margin-left:10px; font-size:13px;}
 .popup.depart_regist label input[type="text"]::placeholder {font-size:11px; color:#a5a5a5;}
 
+/* 로딩중 */
+.popup.loading {width:150px;text-align:center;padding-top: 160px;background: url(/global/img/Loding_ball.gif) no-repeat center 0px;background-size: 110%;margin: 70px auto;}
+.popup.loading p {font-size:17px; font-family:'Lato', sans-serif; font-weight:600; color:#1c233d;}
+
 /********************* DEFAULT *********************/
 /* TABLE BTN */
 .table_btn {width:100%; text-align:right; margin-top:25px;}
