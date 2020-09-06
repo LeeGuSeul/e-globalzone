@@ -1,12 +1,12 @@
 <?php include $_SERVER['DOCUMENT_ROOT']."/global/mobile/file/head.php"; ?>
 	
-		<div class="wrap bg">
+		<div class="wrap">
             <div class="apply_tit">
                 <h3 class="tit">예약신청</h3>
                 <p>신청인원 :<span> 5 </span>/ 10</p>
             </div>
             <!-- // -->
-            <div class="reservation_apply mb30">
+            <div class="reservation_boxs mb30">
                 <div class="box puple">
                     <ul>
                         <li>[영어] 쉬라이 알리오트시나</li>
