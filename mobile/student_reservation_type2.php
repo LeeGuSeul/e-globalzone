@@ -21,7 +21,7 @@
                 <p class="tit">예약 관리</p>
                 <!-- id 중복 안되게 주의 -->
                 <ui class="mainMenu">
-                    <li class="item status01" id="wait_reservation">
+                    <li class="item status01" id="wait_reservation2">
                         <a href="#wait_reservation" class="btn"><span>예약 대기</span></a>
                         <div class="subMenu">
                             <div>

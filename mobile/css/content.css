@@ -333,6 +333,7 @@ body {
     overflow: hidden;
     clear: both;
     width: 100%;
+    border-top: 1px solid #e5e5e5;
 }
 
 .sch_tab li {
@@ -341,13 +342,16 @@ body {
     width: 25%;
 }
 
+.sch_tab li:last-child div {
+    border-right: 1px solid #e5e5e5;
+}
+
 .sch_tab li div {
     display: block;
     padding: 15px 0;
     color: #1d1f24;
     font-size: 13px;
     text-align: center;
-    border: 1px solid #e5e5e5;
     background: #fff;
     font-weight: 600;
     border-radius: 5px 5px 0 0;

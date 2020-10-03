@@ -470,6 +470,32 @@ box-shadow: 2px 3px 12px 0px rgba(48, 152, 127, 0.25);}
 .popup.loading {width:150px;text-align:center;padding-top: 160px;background: url(/global/img/Loding_ball.gif) no-repeat center 0px;background-size: 110%;margin: 70px auto;}
 .popup.loading p {font-size:17px; font-family:'Lato', sans-serif; font-weight:600; color:#1c233d;}
 
+/* 게시판 글쓰기, 글보기*/
+.popup.board {width:900px;}
+.popup.board p.tit {margin-bottom:30px;}
+.popup.board .board_form_row {width:100%; margin-bottom:10px;}
+.popup.board .board_form_row p {font-size:14px; font-weight:600; margin-bottom:3px;}
+.popup.board .board_form_row input[type="text"],
+.popup.board .board_form_row textarea {
+    width:100%;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    padding:15px 20px;
+    outline: none;
+    font-size:13px;
+    color:#333;
+}
+.popup.board .board_form_row input[type="text"]::placeholder,
+.popup.board .board_form_row textarea::placeholder {
+    color:#a5a5a5;
+    font-size:13px;
+}
+
+.popup.board .board_form_row textarea {height:400px;overflow-x:hidden;overflow-y:auto;padding-right:10px;}
+.popup.board .board_form_row textarea::-webkit-scrollbar {width:5px;}
+.popup.board .board_form_row textarea::-webkit-scrollbar-thumb {background-color:#373a44; border-radius:10px;}
+.popup.board .board_form_row textarea::-webkit-scrollbar-track {background-color:#e1e1ea; border-radius:10px;}
+
 /********************* DEFAULT *********************/
 /* TABLE BTN */
 .table_btn {width:100%; text-align:right; margin-top:25px;}
