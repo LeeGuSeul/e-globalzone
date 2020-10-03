@@ -539,6 +539,14 @@ box-shadow: 2px 3px 12px 0px rgba(48, 152, 127, 0.25);}
     border: 0;
   }
 
+  /* 글보기*/
+  .view_area {}
+  .view_area p.noti_tit {font-size:23px; color:#000; font-weight:600; margin-bottom:10px; padding-bottom:15px; border-bottom:1px solid #ddd;}
+  .view_area ul.noti_info {width: 100%;text-align: right;display: inline-block;}
+  .view_area ul.noti_info li {float: right;margin-left:10px;color:#999;font-size:13px;}
+  .view_area ul.noti_info li span {color:#555; font-weight:600; letter-spacing: -0.05em;}
+  .noti_view {width:100%; margin-top:10px;}
+
 /********************* DEFAULT *********************/
 /* TABLE BTN */
 .table_btn {width:100%; text-align:right; margin-top:25px;}
