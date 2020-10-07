@@ -4,8 +4,8 @@
         <p class="tit">계열/학과 관리</p>
 
         <div class="gray_bg">
-            <label for="">학과명 <input type="text" placeholder="학과명 입력" /></label>
-            <label for="">줄임말 <input type="text" placeholder="학과명 줄임말 입력" /></label>
+            <label for="">학과명 <input type="text" placeholder="학과명 입력해주세요" /></label>
+            <label for="">줄임말 <input type="text" placeholder="학과명 줄임말을 두 글자로 입력해주세요" /></label>
         </div>
 
         <!-- 추가된 리스트 부분(수정, 삭제) -->
@@ -24,32 +24,38 @@
                         <tr>
                             <td>컴퓨터정보계열</td>
                             <td>컴정</td>
-                            <td><div class="btn"><img src="/global/img/depart_modify.gif" alt="수정"></div></td>
-                            <td><div class="btn"><img src="/global/img/depart_delete.gif" alt="삭제"></div></td>
+                            <td><div class="btn"><img src="/global/img/modify_ico.gif" alt="수정"></div></td>
+                            <td><div class="btn"><img src="/global/img/delete_ico.gif" alt="삭제"></div></td>
                         </tr>
                         <tr>
                             <td>컴퓨터정보계열</td>
                             <td>컴정</td>
-                            <td><div class="btn"><img src="/global/img/depart_modify.gif" alt="수정"></div></td>
-                            <td><div class="btn"><img src="/global/img/depart_delete.gif" alt="삭제"></div></td>
+                            <td><div class="btn"><img src="/global/img/modify_ico.gif" alt="수정"></div></td>
+                            <td><div class="btn"><img src="/global/img/delete_ico.gif" alt="삭제"></div></td>
                         </tr>
                         <tr>
                             <td>컴퓨터정보계열</td>
                             <td>컴정</td>
-                            <td><div class="btn"><img src="/global/img/depart_modify.gif" alt="수정"></div></td>
-                            <td><div class="btn"><img src="/global/img/depart_delete.gif" alt="삭제"></div></td>
+                            <td><div class="btn"><img src="/global/img/modify_ico.gif" alt="수정"></div></td>
+                            <td><div class="btn"><img src="/global/img/delete_ico.gif" alt="삭제"></div></td>
                         </tr>
                         <tr>
                             <td>컴퓨터정보계열</td>
                             <td>컴정</td>
-                            <td><div class="btn"><img src="/global/img/depart_modify.gif" alt="수정"></div></td>
-                            <td><div class="btn"><img src="/global/img/depart_delete.gif" alt="삭제"></div></td>
+                            <td><div class="btn"><img src="/global/img/modify_ico.gif" alt="수정"></div></td>
+                            <td><div class="btn"><img src="/global/img/delete_ico.gif" alt="삭제"></div></td>
                         </tr>
                         <tr>
                             <td>컴퓨터정보계열</td>
                             <td>컴정</td>
-                            <td><div class="btn"><img src="/global/img/depart_modify.gif" alt="수정"></div></td>
-                            <td><div class="btn"><img src="/global/img/depart_delete.gif" alt="삭제"></div></td>
+                            <td><div class="btn"><img src="/global/img/modify_ico.gif" alt="수정"></div></td>
+                            <td><div class="btn"><img src="/global/img/delete_ico.gif" alt="삭제"></div></td>
+                        </tr>
+                        <tr>
+                            <td>컴퓨터정보계열</td>
+                            <td>컴정</td>
+                            <td><div class="btn"><img src="/global/img/modify_ico.gif" alt="수정"></div></td>
+                            <td><div class="btn"><img src="/global/img/delete_ico.gif" alt="삭제"></div></td>
                         </tr>
                     </tbody>
                 </table>
